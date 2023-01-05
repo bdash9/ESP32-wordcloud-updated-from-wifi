@@ -2,6 +2,7 @@
 
 From a command line:
 curl -X POST -d "words to display " http://SERVER_IP/addwords
+Not sure if this works:
 curl -X POST -d "words=Led Zeppelin" http://172.16.0.27/addwords
 
 (Note the trailing space above after "words to diplay ")
